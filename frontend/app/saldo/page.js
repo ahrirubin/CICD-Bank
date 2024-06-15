@@ -18,7 +18,7 @@ export default function Saldo() {
       try {
         const token = localStorage.getItem("token"); 
         const response = await fetch(
-          "http://ec2-51-20-76-74.eu-north-1.compute.amazonaws.com:3001/me/accounts",
+          "http://ec2-51-20-191-164.eu-north-1.compute.amazonaws.com:3001/me/accounts",
           {
             method: "POST",
             headers: {
@@ -49,7 +49,7 @@ export default function Saldo() {
     try {
       const token = localStorage.getItem("token"); 
       const response = await fetch(
-        "http://ec2-51-20-76-74.eu-north-1.compute.amazonaws.com:3001/me/accounts/transactions",
+        "http://ec2-51-20-191-164.eu-north-1.compute.amazonaws.com:3001/me/accounts/transactions",
         {
           method: "POST",
           headers: {

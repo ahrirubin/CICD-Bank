@@ -14,7 +14,7 @@ export default function Signup() {
     e.preventDefault();
     try {
       const response = await fetch(
-        "http://ec2-51-20-76-74.eu-north-1.compute.amazonaws.com:3001/users",
+        "http://ec2-51-20-191-164.eu-north-1.compute.amazonaws.com:3001/users",
         {
           method: "POST",
           headers: {

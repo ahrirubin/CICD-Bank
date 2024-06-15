@@ -137,6 +137,6 @@ app.post("/me/accounts/transactions", (req, res) => {
 
 app.listen(port, () => {
   console.log(
-    `Bankens backend körs på http://ec2-51-20-76-74.eu-north-1.compute.amazonaws.com:${port}`
+    `Bankens backend körs på http://ec2-51-20-191-164.eu-north-1.compute.amazonaws.com:${port}`
   );
 });

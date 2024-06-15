@@ -16,7 +16,7 @@ export default function Login() {
 
     try {
       const response = await fetch(
-        "http://ec2-51-20-76-74.eu-north-1.compute.amazonaws.com:3001/sessions",
+        "http://ec2-51-20-191-164.eu-north-1.compute.amazonaws.com:3001/sessions",
         {
           method: "POST",
           headers: {
