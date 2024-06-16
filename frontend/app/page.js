@@ -37,7 +37,8 @@ export default function Home() {
       
         <div className="flex flex-col  w-full bg-slate-800/80 flex-grow">
           <div className=" flex flex-1  justify-center items-end ">
-        <h1 className="text-5xl text-white text-center ">Välkommen till din bank!</h1>
+        <h1 className="text-5xl text-white text-center ">Ahri Banken</h1>
+        <h2 className="text-2xl text-white text-center">Skaffa låga lånelöften</h2>
         </div>
         <div className="flex  flex-1 space-x-10  justify-center items-start" >
           <div className=" space-y-6 w-[400px]"> 
