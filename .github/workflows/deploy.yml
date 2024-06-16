@@ -28,8 +28,9 @@ jobs:
         run: npm run test:ci
         env:
           CI: true
-          
+
   deployment:
+    needs: test
     name: Deploy
     runs-on: ubuntu-latest
 
